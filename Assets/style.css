@@ -1,0 +1,10 @@
+main {
+    margin: 3rem auto;
+    max-width: 120vw;
+    width: 70ch;
+  }
+
+#question-card {
+  display: none;
+}
+
