@@ -2,14 +2,10 @@
 var countdownEl = document.querySelector(".countdown");
 var scoreEl = document.querySelector("#score")
 var secondsLeft = 30;
-// const header = document.getElementById('header');
-
-// const questionCard = document.querySelector('#question-card');
 const startCard = document.querySelector("#start-card");
 const correctWrong = document.querySelector("#correct-wrong");
 const finalScore = document.querySelector("#final-score");
 const highScore = document.querySelector("#high-score");
-// const questionTitle = document.querySelector('#question-title');
 let questionsCard = document.querySelector("#questions-card");
 let questionEl = document.querySelector("#question");
 let initialsInput = document.querySelector("#initials");

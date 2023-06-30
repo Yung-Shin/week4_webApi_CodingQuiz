@@ -31,74 +31,64 @@
         </section>
 
         <section id="questions-card">
-            <div class="questions_list">
-              <div class="list_inner">
-                <ul class="questions_ul">
-                  <h2 class="question-title" id="question">
-                    This element hold the question.
-                  </h2>
-                  <!-- list of answer choices  -->
-                  <li class="questions_li">
-                    <button id="a" value="0" type="button" class="answer-button">
+              <h2 class="question-title" id="question">
+              </h2>
+                <!-- list of answer choices  -->
+                <li class="questions_li">
+                  <button id="a" value="0" type="button" class="answer-button">
                       Answer-1
-                    </button>
-                  </li>
-                  <li class="questions_li">
-                    <button id="b" value="1" type="button" class="answer-button">
+                  </button>
+                </li>
+                <li class="questions_li">
+                  <button id="b" value="1" type="button" class="answer-button">
                       Answer-2
-                    </button>
-                  </li>
-                  <li class="questions_li">
-                    <button id="c" value="2" type="button" class="answer-button">
+                  </button>
+                </li>
+                <li class="questions_li">
+                  <button id="c" value="2" type="button" class="answer-button">
                       Answer-3
-                    </button>
-                  </li>
-                  <li class="questions_li">
-                    <button id="d" value="3" type="button" class="answer-button">
+                  </button>
+                </li>
+                <li class="questions_li">
+                  <button id="d" value="3" type="button" class="answer-button">
                       Answer-4
-                    </button>
-                  </li>
-                </ul>
+                  </button>
+                </li>
                 <!-- this div holds the correct or wrong pop up text once you select the answer -->
-                <div id="correct-wrong"></div>
-              </div>
-            </div>
-          </section>
+                <div id="correct-wrong">
+                </div>
+         </section>
 
       
          <!--section to show final score-->
       <section id="final-score">
-        <div class="score_div">
+     
           <div class="complete">
             <!-- quiz complete text will show once all question is been answered -->
-            <h2 class="complete_quiz">Quiz Complete..!</h2>
+            <h1>Complete!</h1>
             <!-- shows the total score -->
-            <p>Your total score is: <span id="score">0</span></p>
+            <p>Your final score is: <span id="score">0</span></p>
             <!-- gives a text area to insert your initials -->
-            <p class="your_intials">
+            <p>
               Your initials:
-              <span
-                ><input
+              <span>
+                <input
                   placeholder=" Your initials"
                   id="initials"
                   class="span_submit"
               /></span>
               <!-- once type initial and click the submit button it locally stores your score and initials -->
-              <button id="submit-score" class="submit-score-btn btn_style_main">
-                Submit
-              </button>
+              <button id="submit-score">Submit</button>
             </p>
           </div>
-        </div>
       </section>
 
 
        <!--this section holds the score list-->
       <section id="high-score">
-        <div class="score_div">
-          <div class="back_clear">
+       
             <!-- shows score list from highest to lowest with your initials -->
-            <h2 class="complete_quiz">Score List</h2>
+            <h1 class="complete_quiz">Score List</h1>
             <ol class="score-list"></ol>
             <!-- button to go back to home -->
             <button id="back" class="go-back-btn btn_style_main">
@@ -108,8 +98,7 @@
             <button id="clear" class="clear-scores-btn btn_style_main">
               Clear All Scores
             </button>
-          </div>
-        </div>
+     
       </section>
     
        
