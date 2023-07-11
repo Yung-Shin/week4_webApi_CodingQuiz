@@ -39,7 +39,13 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ## Sscreenshot
+<img width="1276" alt="Week4 1" src="https://github.com/Yung-Shin/week4_webApi_CodingQuiz/assets/123918265/60e5f419-36fb-44c0-b8eb-50d4b71d7a58">
 
+<img width="1276" alt="Week4 2" src="https://github.com/Yung-Shin/week4_webApi_CodingQuiz/assets/123918265/245d4f2c-6088-402c-8958-fbcbd515bd12">
+
+<img width="1253" alt="Week4 3" src="https://github.com/Yung-Shin/week4_webApi_CodingQuiz/assets/123918265/7030d7db-01ed-47b5-9e4e-4e4c7f55aa8f">
+
+<img width="1250" alt="Week4 4" src="https://github.com/Yung-Shin/week4_webApi_CodingQuiz/assets/123918265/2b4f4cb7-ec0b-4a76-af0b-5c64f3d1022c">
 
 ## Github URL:
 https://github.com/Yung-Shin/week4_webApi_CodingQuiz
