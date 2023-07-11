@@ -1,7 +1,7 @@
 // declared variables
 var countdownEl = document.querySelector(".countdown");
 var scoreEl = document.querySelector("#score")
-var secondsLeft = 30;
+var secondsLeft = 60;
 const startCard = document.querySelector("#start-card");
 const correctWrong = document.querySelector("#correct-wrong");
 const finalScore = document.querySelector("#final-score");
@@ -32,13 +32,13 @@ const questions = [
     answers: ['a: CSI', 'b: CIA', 'c: CSS', 'd: CPU'],
     correctAnswer: '2'
 }, {
-    question: 'QQ2: What does CSS stands for?',
+    question: 'Q2: What does CSS stands for?',
     answers: ['a: Cascading Southern Sandwich', 'b: Cascading Shogun Sushi', 'c: Cascading Style Sheet', 'd: Cascading Subperb Styling'],
     correctAnswer: '2'
 }, {
     question: 'Q3: Why do we use console.log in Javascript?',
     answers: ['a: To identify errors and debug', 'b: To write additional code', 'c: To add dynamic user interface', 'd: To access local storage'],
-    correctAnswer: '1'
+    correctAnswer: '0'
 }, {
     question: 'Q4: Where/how do you leave comments in Javascript?',
     answers: ['a: Between " "', 'b: Between ! !', 'c: Between $ $', 'd: Between / /'],
@@ -211,7 +211,7 @@ answerButton.forEach((item) => {
   backButton.addEventListener("click", function () {
     highScore.style.display = "none";
     startCard.style.display = "block";
-    secondsLeft = 30;
+    secondsLeft = 60;
     countdownEl.textContent = `Remaining:${secondsLeft}s`;
   });
   
